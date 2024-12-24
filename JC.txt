@@ -1,0 +1,124 @@
+Qs
+why does acetylation of histones loosen up wound DNA?
+why are we only looking at H3 and H4?
+-> most studied and acetylation at H3 and H4 is more correlated with chomatin compaction status compared to H2A and H2B
+-> 
+why are we looking at rna pol2?
+why is it important to look at G0 and G1 cell states?
+
+
+Four cell cycle stages - G1,S,G2,M under usual conditions
+unfavourable conditions - G1 -> G0 transition (is reversible - cell can return back to G1 if favorable conditions)
+For S pombe Nitrogen starvation for 24 hrs triggers the transition
+
+Characteristics of G1 and G0 cells-
+1. G0 cells are shorter
+2. G0 cells are more thermotolerant
+3. G0 cells have less mRNA and rRNA content suggesting repressed transcription
+
+What is unknown about S pombe G0 state compared to G1:
+- effect of histone PTMs/ marks
+- RNA pol localization and abundance
+- active transcription status
+- nuclear macromolecular packing
+
+Chromatin-
+nucleosome with 147 bp of DNA wrapped around histone octamer
+10 nm wide, 6 nm thick cylinder
+most abundant macromolecular complex in the nucleus
+
+- activating histone PTMs -> open chromatin -> exposed DNA
+- repressing histone PTMs -> compact chromatin -> less exposed DNA
+
+Canonical nucleosomes-
+10-nm-wide, 6-nm-thick cylinders, and have 145–147 base pairs of DNA bent in 1.65 left-handed superhelical gyres around the histone octamer
+
+Non-canonical nucleosomes-
+have either partially detached DNA, partially detached histones, fewer than eight histones, or a combination of these features
+
+in-vitro, reconstituted nucleosomes are mostly canonical
+budding yeast nuclei -> canonical nucleosomes account for < 10%
+human chromatin -> abundant and densely packed canonical nucleosomes both in I and M state
+
+What is done?
+characterise S pombe cell nuclei in multiple states-
+1. G1 arrested cells
+2. proliferating cells (G1)
+3. G0 cells
+4. G0 cells with hyperacetylated histones
+
+Findings-
+1. G0 histones can be made hyperacetylated -> affects nucleus shrinkage but does not affect thermotolerance or transcription repression
+2. Hyper or hypocetylation does not affect large-scale nuclear macromolecular packing or abundance of nucleosomes
+->
+G0 transcriptional repression is robust to perturbations in histone acetylation and nuclear morphology
+G0 transcriptional repression does not lead to a massive upregulation of canonical nucleosomes.
+
+DAPI, or 4′,6-diamidino-2-phenylindole, is a fluorescent stain that binds strongly to adenine–thymine-rich regions in DNA.
+
+figure 1 b
+DIC, fleuorescence microscopy, spot test
+- proliferating and G1 cells are longer than G0 cells
+
+TSA inhibits histone deacetylase -> histone hyper acetylation (acetylation of lysines on histone proteins)
+- TSA treated G0 cells show similar phenotype as G0 cells
+
+figure 1 c
+G0 and TSA-G0 cells are more thermoresistant
+
+figure 2 a
+Immunoblotting
+- less acetylation at H3 Nterm in G0 cells
+- similar acetylation at H4 Nterm in G0 cells
+- TSA treatments leads to increase in acetylation greater than P or G1 cells
+- TSA washout reverts acetylation back to G0 like
+
+
+
+
+
+
+
+Discussion-
+what was known -
+In G0 state, S pombe cells become shorter, undergo transcription repression and become more thermotolerant
+G0 vs G1 state comparison?
+what else is different other than stated in the paper in these two states?
+
+what was unknown -
+changes in histone acetylation
+Why is histone acetylation important?
+
+abundance of macromolecules (polymerase subunit)
+other macromolecules? extra-nuclear macromolecules
+
+nucleus volume changes
+distribution of nuclear macromolecular complexes
+structural state of the nucleosomes
+
+S pombe cell nuclei have lower active transcription in the G0 state than in the proliferative state
+how did we conclude this?
+lower 5-EU incorporation, lower RNA polymerase levels, lower levels of Rpb1 CTD-S2P and CTD-S5P markers -> consistent with transcriptional repression
+how is it similar to mitotic cell state/ other extreme states?
+
+Megacomplexes are rarer within G0 chromatin, but abundant in the nucleolus
+Rpb1 is less in G0 cells but, whatever rpb1 is present the proportion of rpb1 partaking transcription is same as proliferating cells
+(this is from CTD-S2P and CTD-S5P)
+
+budding yeast -> large increase in transcriptional markers within minutes after G0 exit (hypertransciption)
+fission yeast -> no increase in transcriptional markers, even hours after G0 exit (from RNA labeling and rpb1 CTD phospho sites)
+re-entry to proliferative state-
+budding yeast -> 4 hrs
+fission yeast -> 6-7 hrs
+why this difference , we don't know yet
+
+
+acetylation
+acetylation marks make chromatin more negatively charged
+TSA treated G0 cells
+-> hyperacetylated H3 but not H4, longer cell bodies, larger nuclei
+-> but, no decrease in thermotolerance or derepression of transcription
+
+similar macromolecular crowding in G0 and TSA-G0 cells -> larger nuclear volume in TSA-G0 is due to unknown additional complexes (other than RNA pol)
+
+Changes in histone-acetylation therefore does not lead to predictable phenotype differences in cells with repressed transcription.
