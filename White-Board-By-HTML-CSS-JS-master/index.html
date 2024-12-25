@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>White Board</title>
+    <link rel="stylesheet" href="style.css">
+    <script>
+        (function(w,t,c,p,s,e){p=new Promise(function(r){w[c]={client:function(){if(!s){
+        s=document.createElement(t);s.src='https://js.cobrowse.io/CobrowseIO.js';s.async=1;s.crossOrigin='anonymous';
+        e=document.getElementsByTagName(t)[0];e.parentNode.insertBefore(s,e);s.onload=function()
+        {r(w[c]);};}return p;}};});})(window,'script','CobrowseIO');
+    
+        CobrowseIO.license = "6FBpmhaX8RnrGg";    
+        CobrowseIO.client().then(function(){
+            CobrowseIO.start();
+        });
+    </script>
+</head>
+<body>
+    <div class="container_row">
+        <div class="layer2">
+            <iframe src="ppt.sozi.html" width="1000" height="500">
+                My Sozi presentation should play here.
+            </iframe>
+        </div>
+        <div class="layer1">
+            <button onclick="resize()"> Clear Screen</button>
+            <canvas id="canvas"></canvas>
+            <script src="script.js"> </script>
+        </div>
+    </div>
+</body>
+</html>
