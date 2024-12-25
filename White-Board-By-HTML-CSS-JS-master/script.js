@@ -1,53 +1,41 @@
-const canvas = document.getElementById('canvas');
-const ctx = canvas.getContext('2d');
-const ws = new WebSocket('ws://localhost:8080');
+const ctx = document.getElementById('canvas').getContext('2d');
+window.addEventListener('resize', resize);
+resize();
+let mousePos = {
+    x: 0,
+    y: 0
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+}
+window.addEventListener('mousemove', draw);
+window.addEventListener('mousedown', mousePosition);
+window.addEventListener('mouseenter', mousePosition);
 
-let drawing = false;
+function mousePosition(e) {
+//     console.log('ok')
+    mousePos.x = e.clientX;
+    mousePos.y = e.clientY;
+}
 
-canvas.addEventListener('mousedown', () => {
-    drawing = true;
-});
+function resize(e) {
+//     console.log('ok2')
+    ctx.canvas.width = window.innerWidth;
+    ctx.canvas.height = window.innerHeight;
+    
+}
 
-canvas.addEventListener('mouseup', () => {
-    drawing = false;
+function draw(e) {
+//     console.log('ok3')
+    if (e.buttons !== 1)
+        return;
     ctx.beginPath();
-});
-
-canvas.addEventListener('mousemove', (event) => {
-    if (!drawing) return;
-
-    const x = event.clientX;
-    const y = event.clientY;
-
-    ctx.lineWidth = 5;
     ctx.lineCap = 'round';
-    ctx.strokeStyle = 'black';
-
-    ctx.lineTo(x, y);
+    ctx.strokeStyle = '#195';
+    ctx.linewidth = 5;
+    ctx.moveTo(mousePos.x, mousePos.y);
+    mousePosition(e);
+    ctx.lineTo(mousePos.x, mousePos.y);
     ctx.stroke();
-    ctx.beginPath();
-    ctx.moveTo(x, y);
-
-    // Send drawing data to the server
-    ws.send(JSON.stringify({ x, y }));
-});
-
-// Handle incoming drawing data
-ws.onmessage = (event) => {
-    const { x, y } = JSON.parse(event.data);
-
-    ctx.lineWidth = 5;
-    ctx.lineCap = 'round';
-    ctx.strokeStyle = 'black';
-
-    ctx.lineTo(x, y);
-    ctx.stroke();
-    ctx.beginPath();
-    ctx.moveTo(x, y);
-};
+}
 
 document.addEventListener('keydown', function(e) {
     const layer2 = document.querySelector('.layer2');
