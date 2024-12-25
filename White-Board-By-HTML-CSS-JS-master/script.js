@@ -20,7 +20,7 @@ function resize(e) {
 //     console.log('ok2')
     ctx.canvas.width = window.innerWidth;
     ctx.canvas.height = window.innerHeight;
-    
+
 }
 
 function draw(e) {
