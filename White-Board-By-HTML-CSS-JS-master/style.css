@@ -1,0 +1,51 @@
+button{
+    position: absolute;
+    top: 15px;
+    left: 1375px;
+    display: block;
+    margin: 3px auto;
+    padding: 6px 18px;
+    border: 2px solid black;
+    background: aquamarine;
+    font-family: 'Baloo Tamma 2', cursive;
+    border-radius: 12px;
+    cursor: pointer;
+    font-size: 17px;
+    transition: transform 300ms ease;
+    z-index: 2;
+}
+
+button:active{
+    transform: scale(0.95);
+}
+button:hover{
+    background: rgb(0, 248, 207);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Baloo Tamma 2', cursive;
+    text-decoration:underline;
+    color: rgb(91, 72, 160);
+}
+
+.container_row{
+    display: grid;
+  }
+
+  .layer1, .layer2{
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .layer1 span{
+    color: #fff;
+    background: #000cf6;
+  }
+
+  .layer2{
+    background: rgba(255, 255, 255, 0.4);
+    pointer-events: none;
+  }
