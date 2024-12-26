@@ -953,8 +953,8 @@
 			"typeName": "binding"
 		},
 		{
-			"x": -2647.76434029071,
-			"y": -3678.2315457027885,
+			"x": -2933.04884135551,
+			"y": -3671.7658262744194,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -964,7 +964,7 @@
 			"props": {
 				"color": "black",
 				"size": "m",
-				"w": 476.7849498704518,
+				"w": 753.9873016497895,
 				"text": "nascent RNA labelling by incorporation of uridine analogues",
 				"font": "draw",
 				"textAlign": "start",
@@ -1028,8 +1028,8 @@
 			"typeName": "binding"
 		},
 		{
-			"x": -2635.595814887984,
-			"y": -3611.8577707788277,
+			"x": -2632.3629551737995,
+			"y": -3623.1727797784743,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1103,8 +1103,8 @@
 			"typeName": "binding"
 		},
 		{
-			"x": -2649.976799454842,
-			"y": -3568.7148170782534,
+			"x": -2651.593229311934,
+			"y": -3581.6462559349925,
 			"rotation": 0,
 			"isLocked": false,
 			"opacity": 1,
@@ -1481,23 +1481,6 @@
 			"parentId": "page:page",
 			"index": "aZ7WA",
 			"typeName": "shape"
-		},
-		{
-			"meta": {},
-			"id": "binding:svz2DLq2qmLh-hvy57vXJ",
-			"type": "arrow",
-			"fromId": "shape:Mx6q1lUFSJLJ6km6QshF0",
-			"toId": "shape:taPzzeAPCJv1g72JxYF9A",
-			"props": {
-				"isPrecise": true,
-				"isExact": false,
-				"normalizedAnchor": {
-					"x": 0.4496644295302017,
-					"y": 0.36239076675327153
-				},
-				"terminal": "start"
-			},
-			"typeName": "binding"
 		},
 		{
 			"x": -541.7971216357589,
@@ -2472,23 +2455,6 @@
 			"typeName": "shape"
 		},
 		{
-			"meta": {},
-			"id": "binding:5vDzr2kJyker7bdRR3TsO",
-			"type": "arrow",
-			"fromId": "shape:wnbEOjnmQvP1xCDbYakqP",
-			"toId": "shape:kDHR11Kp3ligc4vuVfRnj",
-			"props": {
-				"isPrecise": true,
-				"isExact": false,
-				"normalizedAnchor": {
-					"x": 0.9246870953819595,
-					"y": 0.6080559575494453
-				},
-				"terminal": "end"
-			},
-			"typeName": "binding"
-		},
-		{
 			"x": 1226.2875416533764,
 			"y": -4550.519607755996,
 			"rotation": 0,
@@ -2970,9 +2936,9 @@
 		{
 			"id": "pointer:pointer",
 			"typeName": "pointer",
-			"x": -4152.934300384904,
-			"y": -72.56300645440706,
-			"lastActivityTimestamp": 1735044572403,
+			"x": -1008.4610051472536,
+			"y": -2070.0151683371837,
+			"lastActivityTimestamp": 1735195762057,
 			"meta": {}
 		},
 		{
@@ -2992,8 +2958,8 @@
 			"screenBounds": {
 				"x": 0,
 				"y": 0,
-				"w": 2198,
-				"h": 1263
+				"w": 1535,
+				"h": 935
 			},
 			"insets": [
 				false,
@@ -3010,7 +2976,7 @@
 			"isFocused": true,
 			"devicePixelRatio": 1,
 			"isCoarsePointer": false,
-			"isHoveringCanvas": true,
+			"isHoveringCanvas": false,
 			"openMenus": [],
 			"isChangingStyle": false,
 			"isReadonly": false,
@@ -3023,7 +2989,9 @@
 		{
 			"editingShapeId": null,
 			"croppingShapeId": null,
-			"selectedShapeIds": [],
+			"selectedShapeIds": [
+				"shape:taPzzeAPCJv1g72JxYF9A"
+			],
 			"hoveredShapeId": null,
 			"erasingShapeIds": [],
 			"hintingShapeIds": [],
@@ -3034,12 +3002,46 @@
 			"typeName": "instance_page_state"
 		},
 		{
-			"x": 7410.586640331338,
-			"y": 3183.4742500068573,
-			"z": 0.23851532297420552,
+			"x": 1053.7210411458395,
+			"y": 2653.546346747524,
+			"z": 0.6186473205826618,
 			"meta": {},
 			"id": "camera:page:page",
 			"typeName": "camera"
+		},
+		{
+			"meta": {},
+			"id": "binding:5vDzr2kJyker7bdRR3TsO",
+			"type": "arrow",
+			"fromId": "shape:wnbEOjnmQvP1xCDbYakqP",
+			"toId": "shape:kDHR11Kp3ligc4vuVfRnj",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.9246870953819595,
+					"y": 0.6080559575494453
+				},
+				"terminal": "end"
+			},
+			"typeName": "binding"
+		},
+		{
+			"meta": {},
+			"id": "binding:svz2DLq2qmLh-hvy57vXJ",
+			"type": "arrow",
+			"fromId": "shape:Mx6q1lUFSJLJ6km6QshF0",
+			"toId": "shape:taPzzeAPCJv1g72JxYF9A",
+			"props": {
+				"isPrecise": true,
+				"isExact": false,
+				"normalizedAnchor": {
+					"x": 0.4496644295302017,
+					"y": 0.36239076675327153
+				},
+				"terminal": "start"
+			},
+			"typeName": "binding"
 		}
 	]
 }
